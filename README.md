@@ -32,10 +32,10 @@ El principal desafío del problema es el **fuerte desbalance de clases**: la gra
 │   ├── ingestion/                   # Datos crudos originales
 │   │   └── data_fraude.csv          # Dataset principal de transacciones
 │   └── cleaned/                     # Datos limpios y transformados (generados por el notebook)
-│
+│       └── data_fraude.csv          # Dataset limpio
 └── notebooks/
     ├── Proyecto_Inteligencia_Artificial,_leandro_F,Pablo_S,Pablo_Á   # Notebook de la evaluación anterior 
-    └── E3-Clasificacion.ipynb       # Notebook principal de esta evaluación
+    └── E3-Clasificacion__leandro_F_Pablo_S_Pablo_Á_      # Notebook principal de esta evaluación
 ```
 
 > El notebook carga el dataset directamente desde la carpeta `data/ingestion/`.
