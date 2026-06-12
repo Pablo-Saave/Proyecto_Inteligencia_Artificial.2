@@ -11,6 +11,16 @@
 
 ---
 
+## Descripción del proyecto
+
+Este repositorio contiene el desarrollo de la **Evaluación 3** de la asignatura de Inteligencia Artificial, correspondiente a la carrera de Ingeniería Civil en Informática de la Universidad del Bío-Bío, sede Concepción.
+
+El propósito del proyecto es construir, optimizar y evaluar modelos de clasificación binaria orientados a detectar transacciones fraudulentas en la fintech **PaySecure**. Se trabajó con dos algoritmos (`LogisticRegression` y `DecisionTreeClassifier`), se optimizaron sus hiperparámetros mediante `GridSearchCV` y se analizó el impacto de ajustar el umbral de decisión para equilibrar la precisión (*precision*) y la exhaustividad (*recall*) de acuerdo al contexto del negocio.
+
+El principal desafío del problema es el **fuerte desbalance de clases**: la gran mayoría de las transacciones en el dataset son legítimas, lo que requiere estrategias específicas de preprocesamiento, ponderación de clases y selección de métricas apropiadas.
+
+---
+
 ## Estructura del repositorio
 
 ```
